@@ -1,5 +1,5 @@
 //Вывести в консоль все чётные числа от 0 до 100, включая 0.
-for i in 0..100 where i % 2 = 0 || i = 0{
+for i in 0..100 where i % 2 == 0 || i == 0{
     print(i)
 }
 
@@ -22,7 +22,7 @@ else{
 
 var k: Int = 9
 for i in 10..50 where i % 2 != 0{
-    if (i + k) % 2 = 0{
+    if (i + k) % 2 == 0{
         k += 2
     }
     else{
@@ -36,7 +36,7 @@ for i in 10..50 where i % 2 != 0{
 
 var k: Int = 9
 for i in 10..50 where i % 2 != 0{
-    if (i + k) % 2 = 0{
+    if (i + k) % 2 == 0{
         k++
     }
     else{
